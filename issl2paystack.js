@@ -36,7 +36,7 @@ function issl2paystack(amt, paystack_key, userEmail, userPhone, reference) {
 			//	'valueDate': valueDate
 			//}
 			console.log(response.message+"-"+response.reference);
-			alert(response.message+"-"+response.reference);
+			//alert(response.message+"-"+response.reference);
 			com.isslng.paystack.pmtcompletelistener(response);
 			//
 		},
